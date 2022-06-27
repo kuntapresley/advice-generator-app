@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+body {
+  font-family: 'Manrope', sans-serif;
+  background: #1f2632;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.advice-generator {
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+  max-width: 54rem;
+  display: -ms-grid;
+  display: grid;
+  grid: -webkit-max-content 3.2rem/1fr;
+  grid: max-content 3.2rem/1fr;
+}
+
+.advice-generator_output {
+  background: #323a49;
+  padding: 4rem  2.4rem 6.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  gap: 2.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+.advice-generator_advice-number {
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: #52ffa8;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 545px) {
+  .advice-generator_advice-number {
+    letter-spacing: 0.466571rem;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+  }
+}
+
+.advice-generator_quote {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  letter-spacing: -0 0257143rem;
+  color: #cee3e9;
+}
+
+@media screen and (min-width: 545px) {
+  .advice-generator_quote {
+    margin-bottom: 1.4rem;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    letter-spacing: -0.03rem;
+  }
+}
+
+.advice-generator_divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+picture > img {
+  margin: auto;
+  width: 100%;
+}
+
+.advice-generator_btn {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  place-self: end center;
+  background: #52ffa8;
+  -webkit-transition: -webkit-box-shadow 250ms;
+  transition: -webkit-box-shadow 250ms;
+  transition: box-shadow 250ms;
+  transition: box-shadow 250ms, -webkit-box-shadow 250ms;
+  cursor: pointer;
+}
+
+.advice-generator_btn:hover {
+  -webkit-box-shadow: 0px 0px 20px #52ffa8;
+          box-shadow: 0px 0px 20px #52ffa8;
+}
+
+.advice-generator_btn-img {
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
+}
+
+.advice-generator_btn-img:hover {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
